@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('anggota', function (Blueprint $table) {
+        Schema::create('pdsmo', function (Blueprint $table) {
             $table->id();
-            $table->string('title',100)->required();
-            $table->string('text',100)->required();
-            $table->string('foto',100)->required();
+            $table->string('judul_proker',255);
+            $table->string('des_proker',255);
+            $table->string('foto_anggota',255);
+            $table->string('foto_dokumentasi',255);
             $table->timestamps();
         });
     }
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('anggota');
+        Schema::dropIfExists('pdsmo');
     }
 };

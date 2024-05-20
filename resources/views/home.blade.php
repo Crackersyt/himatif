@@ -75,34 +75,9 @@
             </li>
 
             <li><a class="nav-link scrollto" href="#team">Ketua Divisi</a></li>
-            {{-- <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li> --}}
+            
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            {{-- <li>
-              <a class="getstarted scrollto" href="#about">Get Started</a>
-            </li> --}}
+           
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -857,97 +832,6 @@
       </section>
       <!-- End Contact Section -->
 
-      <div>
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="techoclub-form"
-          tabindex="-1"
-          role="dialog"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog" role="document">
-            <form action="" method="POST" class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Saran</h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div>
-                  <div class="form-group">
-                    <label for="nik" class="col-form-label">NIM:</label>
-                    <div
-                      class="d-flex flex-row align-items-center"
-                      id="fgroup-saran-nik"
-                    >
-                      <input
-                        type="number"
-                        class="form-control text-uppercase"
-                        id="nik"
-                        name="nik"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="nama" class="col-form-label"
-                      >Nama Lengkap:</label
-                    >
-                    <div
-                      class="d-flex flex-row align-items-center"
-                      id="fgroup-saran-nama"
-                    >
-                      <input
-                        type="text"
-                        class="form-control text-uppercase"
-                        id="nama"
-                        name="nama"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="nama" class="col-form-label">Nomor HP:</label>
-                    <div
-                      class="d-flex flex-row align-items-center"
-                      id="fgroup-saran-nama"
-                    >
-                      <input
-                        type="text"
-                        class="form-control text-uppercase"
-                        id="nama"
-                        name="nama"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Batal
-                </button>
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  name="send-saran"
-                  value="saran"
-                >
-                  Kirim
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
     </main>
     <!-- End #main -->
 
