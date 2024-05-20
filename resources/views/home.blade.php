@@ -62,11 +62,11 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
-        <h1 class="logo me-auto"><a href="index.html">Himatif</a></h1>
+        <h1 class="logo me-auto"><a href="/">Himatif</a></h1>
       <nav id="navbar" class="navbar">
           <ul>
             <li>
-              <a class="nav-link scrollto active" href="index.html">Home</a>
+              <a class="nav-link scrollto active" href="#header">Home</a>
             </li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#why-us">Visi Misi</a></li>
@@ -75,7 +75,7 @@
             </li>
 
             <li><a class="nav-link scrollto" href="#team">Ketua Divisi</a></li>
-            <li class="dropdown">
+            {{-- <li class="dropdown">
               <a href="#"
                 ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
               ></a>
@@ -98,11 +98,11 @@
                 <li><a href="#">Drop Down 3</a></li>
                 <li><a href="#">Drop Down 4</a></li>
               </ul>
-            </li>
+            </li> --}}
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <li>
+            {{-- <li>
               <a class="getstarted scrollto" href="#about">Get Started</a>
-            </li>
+            </li> --}}
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -337,7 +337,7 @@
                 data-aos-delay="100"
               >
                 <div class="icon-box">
-                  <a href="miba.html">
+                  <a href="miba">
                     <div class="icon"><i class="bx bxl-dribbble"></i></div>
                     <h4>Miba</h4>
                     <p class="text-black">
@@ -354,7 +354,7 @@
                 data-aos-delay="200"
               >
                 <div class="icon-box">
-                  <a href="sosial.html">
+                  <a href="sosial">
                     <div class="icon"><i class="bx bx-file"></i></div>
                     <h4>Sosial</h4>
                     <p class="text-black">
@@ -371,7 +371,7 @@
                 data-aos-delay="300"
               >
                 <div class="icon-box">
-                  <a href="penristek.html">
+                  <a href="penristek">
                     <div class="icon"><i class="bx bx-tachometer"></i></div>
                     <h4>Penristek</h4>
                     <p class="text-black">
@@ -388,7 +388,7 @@
                 data-aos-delay="400"
               >
                 <div class="icon-box">
-                  <a href="kwu.html">
+                  <a href="kwu">
                     <div class="icon"><i class="bx bx-layer"></i></div>
                     <h4>KWU</h4>
                     <p class="text-black">
@@ -406,7 +406,7 @@
                 data-aos-delay="100"
               >
                 <div class="icon-box">
-                  <a href="psdmo.html">
+                  <a href="psdmo">
                     <div class="icon"><i class="bx bxl-dribbble"></i></div>
                     <h4>PSDMO</h4>
                     <p class="text-black">
@@ -423,7 +423,7 @@
                 data-aos-delay="200"
               >
                 <div class="icon-box">
-                  <a href="humas.html">
+                  <a href="humas">
                     <div class="icon"><i class="bx bx-file"></i></div>
                     <h4>Humas</h4>
                     <p class="text-black">
@@ -440,7 +440,7 @@
                 data-aos-delay="300"
               >
                 <div class="icon-box">
-                  <a href="medinfo.html">
+                  <a href="medinfo">
                     <div class="icon"><i class="bx bx-tachometer"></i></div>
                     <h4>Medinfo</h4>
                     <p class="text-black">

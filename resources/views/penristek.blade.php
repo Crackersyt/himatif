@@ -9,35 +9,35 @@
   <meta content="" name="keywords"> -->
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+    <!-- <link href="/img/favicon.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/profil.css" />
+    <link rel="stylesheet" href="/css/profil.css" />
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
     <!-- =======================================================
   * Template Name: Arsha
@@ -53,10 +53,10 @@
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
         <h1 class="logo me-auto">
-          <a href="index.html"> <i class="bi bi-arrow-left"></i> Himatif</a>
+          <a href="/"> <i class="bi bi-arrow-left"></i> Himatif</a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.html" class="logo me-auto"><img src="/img/logo.png" alt="" class="img-fluid"></a>-->
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -101,7 +101,7 @@
             data-aos-delay="200"
           >
             <img
-              src="assets/img/departemen/1708172657680.png"
+              src="/img/departemen/1708172657680.png"
               class="depatermen-img img-fluid animated rounded"
               alt=""
             />
@@ -227,7 +227,7 @@
               <div class="member d-flex align-items-start">
                 <div class="pic" style="width: 120px; height: 100px">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="/img/team/team-1.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -253,7 +253,7 @@
               <div class="member d-flex align-items-start">
                 <div class="pic" style="width: 120px; height: 100px">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="/img/team/team-1.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -279,7 +279,7 @@
               <div class="member d-flex align-items-start">
                 <div class="pic" style="width: 120px; height: 100px">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="/img/team/team-1.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -305,7 +305,7 @@
               <div class="member d-flex align-items-start">
                 <div class="pic" style="width: 120px; height: 100px">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="/img/team/team-1.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -631,7 +631,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-1.jpg"
+                src="/img/portfolio/portfolio-1.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -640,7 +640,7 @@
               <h4>Study Banding</h4>
               <p>22/01/2024 , Bandung</p>
               <a
-                href="assets/img/portfolio/portfolio-1.jpg"
+                href="/img/portfolio/portfolio-1.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="App 1"
@@ -658,7 +658,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-2.jpg"
+                src="/img/portfolio/portfolio-2.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -667,7 +667,7 @@
               <h4>Web 3</h4>
               <p>Web</p>
               <a
-                href="assets/img/portfolio/portfolio-2.jpg"
+                href="/img/portfolio/portfolio-2.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Web 3"
@@ -685,7 +685,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-3.jpg"
+                src="/img/portfolio/portfolio-3.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -694,7 +694,7 @@
               <h4>App 2</h4>
               <p>App</p>
               <a
-                href="assets/img/portfolio/portfolio-3.jpg"
+                href="/img/portfolio/portfolio-3.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="App 2"
@@ -712,7 +712,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-4.jpg"
+                src="/img/portfolio/portfolio-4.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -721,7 +721,7 @@
               <h4>Card 2</h4>
               <p>Card</p>
               <a
-                href="assets/img/portfolio/portfolio-4.jpg"
+                href="/img/portfolio/portfolio-4.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Card 2"
@@ -739,7 +739,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-5.jpg"
+                src="/img/portfolio/portfolio-5.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -748,7 +748,7 @@
               <h4>Web 2</h4>
               <p>Web</p>
               <a
-                href="assets/img/portfolio/portfolio-5.jpg"
+                href="/img/portfolio/portfolio-5.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Web 2"
@@ -766,7 +766,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-6.jpg"
+                src="/img/portfolio/portfolio-6.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -775,7 +775,7 @@
               <h4>App 3</h4>
               <p>App</p>
               <a
-                href="assets/img/portfolio/portfolio-6.jpg"
+                href="/img/portfolio/portfolio-6.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="App 3"
@@ -793,7 +793,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-7.jpg"
+                src="/img/portfolio/portfolio-7.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -802,7 +802,7 @@
               <h4>Card 1</h4>
               <p>Card</p>
               <a
-                href="assets/img/portfolio/portfolio-7.jpg"
+                href="/img/portfolio/portfolio-7.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Card 1"
@@ -820,7 +820,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-8.jpg"
+                src="/img/portfolio/portfolio-8.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -829,7 +829,7 @@
               <h4>Card 3</h4>
               <p>Card</p>
               <a
-                href="assets/img/portfolio/portfolio-8.jpg"
+                href="/img/portfolio/portfolio-8.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Card 3"
@@ -847,7 +847,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img">
               <img
-                src="assets/img/portfolio/portfolio-9.jpg"
+                src="/img/portfolio/portfolio-9.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -856,7 +856,7 @@
               <h4>Web 3</h4>
               <p>Web</p>
               <a
-                href="assets/img/portfolio/portfolio-9.jpg"
+                href="/img/portfolio/portfolio-9.jpg"
                 data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link"
                 title="Web 3"
@@ -1047,15 +1047,15 @@
     ></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="/vendor/aos/aos.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
