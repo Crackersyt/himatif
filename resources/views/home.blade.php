@@ -10,7 +10,8 @@
 
     <!-- Favicons -->
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <link rel="stylesheet" href="img/favicon.png" />
     
     <link rel="stylesheet" href="img/apple-touch-icon.png" />
@@ -452,10 +453,7 @@
           <div class="section-title">
             <h2>Pemimpin Himatif</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+             {{ $deskripsi[0]->deskripsi }}
             </p>
           </div>
 
@@ -743,7 +741,7 @@
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
                   <h4>Lokasi :</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Jl. HS.Ronggo Waluyo, Puseurjaya, Telukjambe Timur, Karawang, Jawa Barat 41361</p>
                 </div>
 
                 <div class="email">
@@ -759,69 +757,97 @@
                 </div>
 
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                  frameborder="0"
-                  stye="border: 0; width: 100%; height: 290px"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.5372347812213!2d107.30055994876514!3d-6.324345930503428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69762d4c316603%3A0x50a8005dfd52a897!2sUniversitas%20Buana%20Perjuangan%20Karawang!5e0!3m2!1sid!2sid!4v1716305427202!5m2!1sid!2sid" 
+                  width="400"
+                  height="250"
+                  frameborder="0" 
+                  style="border:0"
                   allowfullscreen
+
+                 
+
+
                 ></iframe>
               </div>
             </div>
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              @if(session('success'))
+                    <script>
+                        Swal.fire({
+                            title: 'Success!',
+                            text: '{{ session('success') }}',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                    </script>
+                @endif
+
+                @if(session('error'))
+                    <script>
+                        Swal.fire({
+                            title: 'Error!',
+                            text: '{{ session('error') }}',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    </script>
+                @endif
+
               <form
-                action="forms/contact.php"
-                method="post"
+                action="{{ route('store') }}"
+                method="POST"
                 role="form"
                 class="php-email-form"
+                id="myForm"
               >
+              @csrf
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Nama </label>
                     <input
                       type="text"
-                      name="name"
-                      class="form-control"
+                      name="nama"
+                      value="{{ old('name') }}"
                       id="name"
+                      class="form-control"
                       required
                     />
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="name">Email</label>
+                    <label for="email">Email</label>
                     <input
                       type="email"
-                      class="form-control"
                       name="email"
+                      value="{{ old('email') }}"
                       id="email"
+                      class="form-control"
                       required
                     />
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="name">Subject</label>
+                  <label for="subjek">Subject</label>
                   <input
                     type="text"
+                    name="subjek"
+                    value="{{ old('subjek') }}"
+                    id="subjek"
                     class="form-control"
-                    name="subject"
-                    id="subject"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="name">Pesan</label>
+                  <label for="pesan">Pesan</label>
                   <textarea
                     class="form-control"
-                    name="message"
+                    name="pesan"
+                    value="{{ old('pesan') }}"
                     rows="10"
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
+               
                 <div class="text-center">
                   <button type="submit">Send Message</button>
                 </div>
@@ -1006,6 +1032,25 @@
     ></a>
 
     <!-- Vendor JS Files -->
+    <script>
+      document.getElementById('myForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Mencegah form submit default
+  
+          Swal.fire({
+              title: 'Apakah Anda yakin?',
+              text: "Pastikan semua data sudah benar sebelum submit.",
+              icon: 'warning',
+              showCancelButton: true,
+              confirmButtonColor: '#3085d6',
+              cancelButtonColor: '#d33',
+              confirmButtonText: 'Ya, submit!'
+          }).then((result) => {
+              if (result.isConfirmed) {
+                  this.submit(); // Submit form jika user mengonfirmasi
+              }
+          });
+      });
+  </script>
     <script src="/vendor/aos/aos.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/vendor/glightbox/js/glightbox.min.js"></script>
